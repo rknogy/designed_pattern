@@ -29,13 +29,13 @@ protected:
 
 
 int main() {
-  Apple::GetInstance().show();
-  cout << &Apple::GetInstance() << endl;
+  Apple::getInstance().show();
+  cout << &Apple::getInstance() << endl;
 
-  Apple::GetInstance().show();
-  cout << &Apple::GetInstance() << endl;
+  Apple::getInstance().show();
+  cout << &Apple::getInstance() << endl;
 
-  Orange::GetInstance().show();
-  Orange::GetInstance().show();
+  Orange::getInstance().show();
+  Orange::getInstance().show();
   return 0;
 }

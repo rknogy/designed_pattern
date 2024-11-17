@@ -1,4 +1,5 @@
 #pragma once
+
 /**
  * 单例模式
  * 整个软件生命周期，只存在一个对象实例
@@ -11,7 +12,7 @@
 template <typename T>
 class Singleton {
 public:
-  static T& GetInstance() {
+  static T& getInstance() {
     static T instance;
     return instance;
   }
